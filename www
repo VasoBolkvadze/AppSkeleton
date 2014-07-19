@@ -1,0 +1,9 @@
+var debug = require('debug')('ApplicationName'),
+	cfg = require('./config'),
+	app = require('./application');
+
+app.set('port', process.env.PORT || cfg.port);
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
