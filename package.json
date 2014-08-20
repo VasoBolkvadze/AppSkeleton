@@ -1,14 +1,14 @@
 {
 	"name": "ApplicationName",
 	"description":"express.js application skeleton with bootstrap",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"start": "node www"
 	},
 	"dependencies": {
 		"express": "latest",
-		"static-favicon": "latest",
+		"serve-favicon": "latest",
 		"morgan": "latest",
 		"cookie-parser": "latest",
 		"body-parser": "latest",

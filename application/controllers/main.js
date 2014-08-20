@@ -1,5 +1,6 @@
-module.exports.views = {
-	home: function(req,res){
-		res.render('home/default',{message:'This is simple "Home Page"'});
-	}
+module.exports = function (router) {
+	router.get('/'
+		, function (req, res, next) {
+			res.render('home/default',{title:'Satcitananda!'});
+		});
 };
