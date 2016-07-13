@@ -1,10 +1,10 @@
 {
 	"name": "ApplicationName",
-	"description":"express.js application skeleton with bootstrap",
+	"description":"express.js + bootstrap, application skeleton with bower,nodemon configs + gitignore",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
-		"start": "node www"
+		"start": "node www.js"
 	},
 	"dependencies": {
 		"express": "latest",
