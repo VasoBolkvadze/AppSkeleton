@@ -1,12 +1,12 @@
 module.exports.init = function(app){
-	/// catch 404 and forward to error handler
+	// catch 404 and forward to error handler
 	app.use(function (req, res, next) {
-		var err = new Error('Not Found');
+		var err = new Error('THE REQUESTED P4GE N0T 4ound');
 		err.status = 404;
 		next(err);
 	});
 
-	/// error handlers
+	// error handlers
 
 	// development error handler
 	// will print stacktrace
